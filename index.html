@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto's Pizzeria | Authentic Italian Artistry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Playfair+Display:ital,wght@0,700;1,700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scroll-watcher"></div>
+
+    <nav class="navbar">
+        <div class="logo">GUSTO'S PIZZERIA</div>
+        
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#heritage">Heritage</a></li>
+            <li><a href="#booking" class="nav-btn">Book a Table</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="reveal-text">Mastering the <br><span>Neapolitan Fire</span></h1>
+                <div class="hero-separator"></div>
+                <p class="hero-description">Since 1984, we've been crafting stories out of flour, water, and soul. Experience the crunch of tradition in every hand-tossed slice.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn-gold">Explore Menu</a>
+                    <a href="#booking" class="btn-outline">Find a Table</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <div class="section-intro">
+            <span class="tag">I Nostri Piatti</span>
+            <h2>Artisanal Creations</h2>
+        </div>
+        <div class="menu-grid">
+            <div class="pizza-card">
+                <div class="img-container">
+                    <img src="D:\restro website html+css\360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg" alt="Margherita">
+                </div>
+                <div class="pizza-details">
+                    <h3>Regina Margherita</h3>
+                    <span class="price"> ₹345
+                    </span>
+                    <p>Buffalo Mozzarella, San Marzano Tomatoes, Fresh Basil.</p>
+                </div>
+            </div>
+            <div class="pizza-card">
+                <div class="img-container">
+                    <img src="D:\restro website html+css\APC_0088_1200x.webp" alt="Truffle Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h3>Truffle Delizia</h3>
+                    <p>Black Truffle Oil, Wild Porcini, Fior di Latte Mozzarella.</p>
+                    <span class="price"> ₹370</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="heritage" class="heritage">
+        <div class="heritage-split">
+            <div class="heritage-text">
+                <h2>Our <br><span>Legacy</span></h2>
+                <div class="heritage-line"></div>
+                <p>Born in the cobblestone streets of Naples, Gusto's brings the ancient art of wood-fire baking to the modern table. Every dough ball is hand-stretched and fermented for precisely 48 hours to achieve perfection.</p>
+            </div>
+            <div class="heritage-visual">
+                <div class="image-stack-top"></div>
+                <div class="image-stack-bottom"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-track">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1556761223-4c4282c73f77?w=500" alt="Chef"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" alt="Oven"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=500" alt="Ingredients"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=500" alt="Dough"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1556761223-4c4282c73f77?w=500" alt="Chef"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" alt="Oven"></div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-section">
+        <div class="booking-card">
+            <h2>Reserve Your Experience</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <div class="input-row">
+                    <input type="date" required>
+                    <input type="time" required>
+                </div>
+                <select>
+                    <option>2 Guests</option>
+                    <option>4 Guests</option>
+                    <option>6+ Guests</option>
+                </select>
+                <button type="submit" class="btn-gold-submit">Confirm Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 GUSTO'S PIZZERIA • ITALY • NYC • LONDON</p>
+    </footer>
+
+</body>
+</html>
